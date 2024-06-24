@@ -1,0 +1,36 @@
+.header {
+    align-items: stretch;
+    justify-content: flex-start;
+    align-self: center;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    top: 5%;
+    -unity-font-style: bold;
+    -unity-font: url("project://database/Assets/Fonts/JMH%20Cthulhumbus.otf?fileID=12800000&guid=2d857d6c547cae747bcc1358ee523983&type=3#JMH Cthulhumbus");
+}
+
+.button {
+    width: 35%;
+    height: 10%;
+    align-self: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=071132102d6322448a2899a9ef32d17b&type=3#NotInter-Regular');
+    -unity-background-image-tint-color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.options {
+    font-size: 35px;
+    -unity-font-style: normal;
+    color: rgb(255, 255, 255);
+    -unity-font: url("project://database/Assets/Fonts/JMH%20Cthulhumbus.otf?fileID=12800000&guid=2d857d6c547cae747bcc1358ee523983&type=3#JMH Cthulhumbus");
+}

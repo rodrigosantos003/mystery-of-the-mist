@@ -1,0 +1,35 @@
+#PlayerAttacks > * {
+    scale: 0.6 0.6;
+    height: 80%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: auto;
+    margin-right: -5%;
+    margin-left: -5%;
+    translate: 0 -15%;
+    max-width: 33%;
+}
+
+#PlayerAttacks > *:hover {
+    translate: 0 -75%;
+    scale: 0.7 0.7;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.selectedCard > #UpgradeTemplate {
+    scale: 1.1 1.1;
+    position: relative;
+    translate: 0 -2%;
+}
+
+#AttackButton:hover {
+    scale: 1.1 1.1;
+}
+
+#PlayerAttacks:hover {
+    scale: 1 1;
+    translate: 0 0;
+}

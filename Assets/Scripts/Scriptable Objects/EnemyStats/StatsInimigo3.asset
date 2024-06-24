@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80f2bf2cc7061f4ba3dad7e45514922, type: 3}
+  m_Name: StatsInimigo3
+  m_EditorClassIdentifier: 
+  _moveRadius: 10
+  _maxHealth: 300
+  _attackRange: 30
+  _attackDamage: 75
+  _attackPrefab: {fileID: 2660858783052067207, guid: b9a796f53cd3bfd458a9c55dcbb78592, type: 3}

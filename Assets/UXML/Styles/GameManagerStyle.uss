@@ -1,0 +1,28 @@
+.section {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: var(--unity-colors-default-background);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+}
+
+PropertyField {
+    margin-bottom: 5px;
+    font-size: 13px;
+}

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UpgradeTemplate" src="project://database/Assets/UXML/PlayerAttackTemplate.uxml?fileID=9197481963319205126&amp;guid=fbed1225b9200674c9d375154ee99f33&amp;type=3#PlayerAttackTemplate" />
+    <ui:Template name="PlayerUpgradeTemplate" src="project://database/Assets/UXML/PlayerUpgradeTemplate.uxml?fileID=9197481963319205126&amp;guid=bd1254207ed59944da54a6b09ec5c1d7&amp;type=3#PlayerUpgradeTemplate" />
+    <Style src="project://database/Assets/UXML/UpgradeStyles.uss?fileID=7433441132597879392&amp;guid=4a9a285b5cb98e84b859f94751747673&amp;type=3#UpgradeStyles" />
+    <ui:VisualElement name="UpgradeRoot" style="flex-direction: row; justify-content: space-around; align-self: auto; background-color: rgba(0, 0, 0, 0.59); height: 100%; width: 100%; align-items: auto; padding-top: 10%; padding-right: 10%; padding-bottom: 10%; padding-left: 10%;">
+        <ui:Instance template="UpgradeTemplate" name="PlayerAttackTemplate" />
+        <ui:Instance template="PlayerUpgradeTemplate" name="PlayerUpgradeTemplate" />
+        <ui:Instance template="PlayerUpgradeTemplate" name="PlayerUpgradeTemplate" />
+    </ui:VisualElement>
+</ui:UXML>

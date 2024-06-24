@@ -1,0 +1,23 @@
+#UpgradeRoot > * {
+    scale: 1 1;
+    justify-content: flex-start;
+    align-items: auto;
+    align-self: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+    height: 100%;
+    width: 28%;
+}
+
+#UpgradeRoot > *:hover {
+    scale: 1.1 1.1;
+    transition-duration: 0.1s;
+}
+
+.hidden {
+    transition-duration: 0.3s;
+    display: none;
+}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MenuStyle.uss?fileID=7433441132597879392&amp;guid=96e9b3aa0a688c04d9015fa54e170f57&amp;type=3#MenuStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/Tower%204.png?fileID=2800000&amp;guid=6befd8be5ac8b8d44ba7c2e81c5b9fd3&amp;type=3#Tower 4&quot;); background-color: rgba(39, 39, 39, 0);">
+        <ui:Label tabindex="-1" text="Mistery of the Mist" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" style="-unity-font: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=071132102d6322448a2899a9ef32d17b&amp;type=3#NotInter-Regular&quot;); -unity-font-style: normal; color: rgb(255, 255, 255); white-space: nowrap; top: 5%;" />
+        <ui:Label tabindex="-1" text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" style="-unity-font: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=071132102d6322448a2899a9ef32d17b&amp;type=3#NotInter-Regular&quot;); -unity-font-style: normal; color: rgb(255, 255, 255); white-space: nowrap; top: 8%; font-size: 60px;" />
+        <ui:Slider label="Volume" high-value="1" name="Volume" show-input-field="false" direction="Horizontal" inverted="false" class="options" style="top: 20%; background-color: rgba(105, 105, 105, 0);" />
+        <ui:DropdownField label="Resolution" index="-1" name="Resolution" class="options" style="top: 25%;" />
+        <ui:Toggle label="Fullscreen" name="Fullscreen" value="true" class="options" style="top: 30%;" />
+        <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BackButton" class="button" style="top: 35%;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab5a523d9750c0a4fa56a9809d2cc8f4, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  _worldObjects:
+  - prefab: {fileID: 8942117240957350850, guid: 3465d1bf78162b44082c22103429c08e, type: 3}
+    minQuantity: 10
+    maxQuantity: 20
+  - prefab: {fileID: 2321903009915218233, guid: d251be969476860409feb7ca89e52f4d, type: 3}
+    minQuantity: 10
+    maxQuantity: 20
+  - prefab: {fileID: 2673135412057441300, guid: e50d9facf4b5cbc44915143e5cbd8d03, type: 3}
+    minQuantity: 15
+    maxQuantity: 20
+  _enemies:
+  - prefab: {fileID: 3947068930086242241, guid: b1ae13f888b56b645ac2a47dd00caa5d, type: 3}
+    minQuantity: 1
+    maxQuantity: 2

@@ -1,0 +1,58 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/UXML/Styles/GameManagerStyle.uss?fileID=7433441132597879392&amp;guid=ec7a9eaa6095de94aaa66efa45607d25&amp;type=3#GameManagerStyle" />
+    <ui:VisualElement name="Levels" class="section" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Levels" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+        <uie:PropertyField binding-path="gameLevels" label="Game Levels" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ObjectsSpawnerScript" class="section" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="World Objects Spawner" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+        <uie:PropertyField binding-path="worldObjectsSpawner" label="Script" />
+        <uie:PropertyField binding-path="worldObjectsCellX" label="Cell Width" name="PropertyField" />
+        <uie:PropertyField binding-path="worldObjectsCellY" label="Cell Height" />
+    </ui:VisualElement>
+    <ui:VisualElement name="EnemiesSpawnerScript" class="section" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Enemies Spawner" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+        <uie:PropertyField binding-path="enemiesSpawner" label="Script" />
+        <uie:PropertyField binding-path="enemiesObjectsCellX" label="Cell Width" />
+        <uie:PropertyField binding-path="enemiesObjectsCellY" label="Cell Height" />
+    </ui:VisualElement>
+    <ui:VisualElement name="PlayerController" class="section" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Player Controller" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+        <uie:PropertyField binding-path="player" label="Player Object" />
+    </ui:VisualElement>
+    <ui:VisualElement name="EnemyController" class="section" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Enemy Controller" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+        <uie:PropertyField binding-path="enemies" label="Enemy Scriptable Object" />
+        <uie:PropertyField binding-path="healthBarPrefab" label="Healthbar Prefab" />
+        <uie:PropertyField binding-path="healthBarCanvas" label="Healthbar Canvas" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Misc" class="section" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Miscellaneous" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+        <uie:PropertyField binding-path="navMeshSurface" label="Navmesh Surface" />
+        <uie:PropertyField label="Camera System" binding-path="cameraSystem" />
+        <uie:PropertyField binding-path="distanceCurve" label="Distance Curve" />
+        <uie:PropertyField binding-path="debugSpawner" label="Debug Spawner" />
+        <uie:PropertyField binding-path="debugHitDetection" label="Debug Hit Detection" />
+        <uie:PropertyField binding-path="gameState" label="Game State" />
+        <uie:PropertyField binding-path="intervalBetweenTurns" label="Interval Between Turns" />
+        <uie:PropertyField binding-path="maxX" label="Max X" />
+        <uie:PropertyField binding-path="maxZ" label="Max Z" />
+        <uie:PropertyField binding-path="textPopupPrefab" label="Text Popup Prefab" />
+    </ui:VisualElement>
+    <ui:VisualElement name="AttacksAndUpgrades" class="section" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Upgrades and Attacks" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+        <uie:PropertyField binding-path="availablePlayerAttacks" label="Available Attacks" />
+        <uie:PropertyField binding-path="availablePlayerUpgrades" label="Available Upgrades" />
+        <uie:PropertyField binding-path="upgradeCardsRoot" label="Upgrade Screen" />
+        <uie:PropertyField binding-path="playerAttackCardPrefab" label="Prefab Attack Card" />
+        <uie:PropertyField binding-path="upgradeCardPrefab" label="Prefab Upgrade Card" />
+        <uie:PropertyField binding-path="playerUpgradeCardPrefab" label="Prefab Upgrade Card" />
+    </ui:VisualElement>
+    <ui:VisualElement name="UI" class="section" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="UI" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+        <uie:PropertyField binding-path="loadingScreen" label="Loading Screen" />
+        <uie:PropertyField binding-path="settingsMenu" label="Settings Menu" />
+        <uie:PropertyField binding-path="gameOverScreen" label="Game Over Screen" />
+        <uie:PropertyField binding-path="winScreen" label="Win Screen" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,3 @@
+#GameOverScreen > Button:hover {
+    scale: 1.1 1.1;
+}
